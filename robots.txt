@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://125568-star.github.io/sokushamba/sitemap.xml

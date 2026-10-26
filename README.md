@@ -11,3 +11,5 @@ The home page, Buy, Sell, Categories, How It Works, About, Login and Sign Up hav
 Accounts, public seller listings, seller contact, ordering, payments and delivery booking are not connected. Drafts are stored only in the current browser and can be reviewed on drafts.html.
 
 Original category and listing photographs are bundled in assets. The hero was cleaned from the original concept using image generation so headings and search remain responsive HTML.
+
+Every page includes an English / Kiswahili language switch; the selected language is remembered in the browser.

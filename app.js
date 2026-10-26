@@ -2,7 +2,7 @@ const $=s=>document.querySelector(s);
 const search=$('#query');
 if(search&&location.pathname.endsWith('buy.html')){
  const params=new URLSearchParams(location.search);search.value=params.get('q')||'';
- const filter=()=>{const q=search.value.trim().toLowerCase();let count=0;document.querySelectorAll('#products .card').forEach(card=>{card.hidden=!card.dataset.search.includes(q);if(!card.hidden)count++});$('#empty').hidden=count>0;$('#result-title').textContent=q?'Search Results ('+count+')':'All Listings'};
+ const filter=()=>{const q=search.value.trim().toLowerCase();let count=0;document.querySelectorAll('#products .card').forEach(card=>{card.hidden=!card.dataset.search.includes(q);if(!card.hidden)count++});$('#empty').hidden=count>0;$('#result-title').replaceChildren(document.createTextNode(q?'Search Results ('+count+')':'All Listings'));window.dispatchEvent(new Event('soko-content-change'))};
  search.addEventListener('input',filter);filter();
 }
 let drafts=[];

@@ -1,11 +1,11 @@
-# Sokushamba.com
+# SokoShamba
 
-Kenyan farmers marketplace website preview.
+Kenyan farmers marketplace concept, rebuilt from the original SokoShamba design with the farmer holding a crate of vegetables. Static HTML, CSS and JavaScript; no build step or dependencies.
 
-## Enable GitHub Pages
+GitHub Pages: https://125568-star.github.io/sokushamba/
 
-In repository Settings → Pages, select Deploy from a branch, branch main, folder / (root), and Save.
+Pages settings: deploy from `main`, `/ (root)`.
 
-The website files are index.html, style.css and app.js at the repository root. No build step is required.
+Search, category filters, product detail dialogs and local listing drafts work. Sample listings are illustrative. Accounts, public seller listings, ordering and payments are not connected. Drafts are stored only in the current browser.
 
-Includes search, county/category filters, price sorting, listing details and browser-local selling drafts. Listings and prices are samples; real sellers, shared listings and payments are not connected. Domain registration and DNS configuration are separate.
+Assets are bundled locally. Product and category photographs come from the original concept artwork. The hero photograph was extracted and cleaned using image generation to remove the concept UI so the heading and search form can be real, responsive HTML.
